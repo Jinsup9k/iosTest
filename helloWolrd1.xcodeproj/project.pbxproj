@@ -49,6 +49,7 @@
 		358A130825B2189F00F8A249 /* helloWolrd1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloWolrd1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		358A130C25B2189F00F8A249 /* helloWolrd1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloWolrd1UITests.swift; sourceTree = "<group>"; };
 		358A130E25B2189F00F8A249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		358A131D25B2198C00F8A249 /* helloWolrd1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = helloWolrd1.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		358A12E925B2189E00F8A249 /* helloWolrd1 */ = {
 			isa = PBXGroup;
 			children = (
+				358A131D25B2198C00F8A249 /* helloWolrd1.entitlements */,
 				358A12EA25B2189E00F8A249 /* AppDelegate.swift */,
 				358A12EC25B2189E00F8A249 /* SceneDelegate.swift */,
 				358A12EE25B2189E00F8A249 /* ViewController.swift */,
@@ -436,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = helloWolrd1/helloWolrd1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5RNY4ATLMG;
 				INFOPLIST_FILE = helloWolrd1/Info.plist;
@@ -445,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jins.helloWolrd1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = helloWolrd1/helloWolrd1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5RNY4ATLMG;
 				INFOPLIST_FILE = helloWolrd1/Info.plist;
@@ -464,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jins.helloWolrd1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
